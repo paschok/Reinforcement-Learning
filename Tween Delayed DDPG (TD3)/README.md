@@ -41,8 +41,13 @@ After all, Q-Learning is an **off-policy** algorithm.
     -  O<sub>i</sub>' - param of an active target before update
  15. Update the weights of Critic target by *polyak averaging* (the same formula, as above)
  
+## To train model in different environments, change *env_name* variable, like that:
 
+```python
+env_name = "Walker2DBulletEnv-v0" # Humanoid
 
+env_name = "AntBulletEnv-v0" # Ant in 3D-dimension
+```
 
 
 [1]: https://arxiv.org/pdf/1802.09477.pdf
