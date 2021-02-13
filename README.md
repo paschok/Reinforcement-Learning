@@ -16,10 +16,10 @@
 
 ----- 
 
-#### Topics to be covered:
+#### Topics covered:
 
 1. Q-Learning and Deep Q-Learning
 2. Policy Gradients
-3. A2C and A3C
-4. Curiosity-Driven Learning
-5. Unity ML-Agent
+3. Actor - Critic
+4. TD3
+5. Tensorflow and Pytorch
